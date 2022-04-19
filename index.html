@@ -5,17 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VIAJES CHILE</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-
     <!-- CSS Bootstrap 4.6.1 -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-
     <!-- JS Bootstrap 4.6.1 -->
     <script src="assets/js/jquery.slim.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
-
     <!-- Mis estilos -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 <body>
     <div class="container ">
@@ -25,40 +23,34 @@
          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
        </button>
- 
        <div class="collapse navbar-collapse" id="navbarSupportedContent">
          <ul class="navbar-nav ml-auto ">
            <li class="nav-item active ">
              <a class="nav-link  text-white" href="#">Inicio<span class="sr-only ">(current)</span></a>
            </li>
            <li class="nav-item">
-             <a class="nav-link text-white" href="#">Quienes somos</a>
+             <a class="nav-link text-white" href="#quienes-somos">Quienes somos</a>
            </li>
            <li class="nav-item ">
-             <a class="nav-link text-white" href="#" >Destacados</a>
+             <a class="nav-link text-white" href="#destacados" >Destacados</a>
            </li>
- 
            <li class="nav-item">
-             <a class="nav-link disabled text-white" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+             <a class="nav-link text-white" href="#contacto">Contacto</a>
            </li>
          </ul>
- 
        </div>
-     
      </nav>
-  
    </div>
- 
      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
        <div class="carousel-inner">
          <div class="carousel-item active">
-           <img src="Assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+           <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
          </div>
          <div class="carousel-item">
-           <img src="Assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+           <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
          </div>
          <div class="carousel-item">
-           <img src="Assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+           <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
          </div>
        </div>
        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -70,33 +62,26 @@
          <span class="sr-only">Next</span>
        </a>
      </div>
-     <h1 class="h1 font-weight-bold text-center text-secondary py-4 ">¿QUIENES SOMOS?<br></h1>
-    <section class="conteiner row row-cols-sm-1 p-5 d-flex align-items-center">
-      <div class="card text-white mr-4" style="max-width: 18rem;">
-        <div class="card-header bg-info text-center"><i class="fab fa-avianex"></i>
+     <h1 class="h1 font-weight-bold text-center text-secondary py-4 " id="quienes-somos">¿QUIENES SOMOS?<br></h1>
+    <section class="container">
+      <div class="row py-4">
+        <div class="col">
+          <div class="bg-info text-center"><i class="fas fa-plane"></i></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, sapiente, temporibus qui eveniet asperiores officia cum repudiandae molestias recusandae pariatur nihil aperiam labore eaque et perferendis. Aliquam vitae architecto earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, dolore. Sed voluptas dolorem dicta illum tenetur laboriosam architecto mollitia placeat perspiciatis enim? Sequi aut rerum id numquam, alias vero eum!</p>
         </div>
-        <div class="card-body bg-black">
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium facere placeat non reprehenderit! Assumenda earum ex, adipisci odio aperiam maiores harum nihil consectetur alias incidunt, sapiente facilis magnam unde quaerat.</p>
+        <div class="col">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, ipsa nisi velit aliquid repellendus veniam, earum nesciunt enim iure esse fugiat temporibus at qui eius itaque eligendi eos voluptatem magnam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut ipsum consequatur voluptate aliquid libero itaque facilis expedita vero laboriosam. Esse voluptate dolore cupiditate. Voluptate veritatis, dolore nam odit ratione quos?</p>
+          <div class="bg-info text-center"><i class="fas fa-mountain"></i></div>
         </div>
-      </div>
-      <div class="card text-white mr-4" style="max-width: 18rem;">
-        <div class="card-header bg-info text-center"><i class="fab fa-atlassian"></i>
-        </div>
-        <div class="card-body bg-black">
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium facere placeat non reprehenderit! Assumenda earum ex, adipisci odio aperiam maiores harum nihil consectetur alias incidunt, sapiente facilis magnam unde quaerat.</p>
-        </div>
-      </div>
-      <div class="card text-white mr-4" style="max-width: 18rem;">
-        <div class="card-header bg-info text-center"><i class="fab fa-stumbleupon"></i>
-        </div>
-        <div class="card-body bg-black">
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium facere placeat non reprehenderit! Assumenda earum ex, adipisci odio aperiam maiores harum nihil consectetur alias incidunt, sapiente facilis magnam unde quaerat.</p>
+        <div class="col">
+          <div class="bg-info text-center"><i class="fas fa-route"></i></div>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, hic molestias aspernatur autem animi ex quas tempore voluptatum? Dicta amet dolor ipsam iste dolore. Laboriosam nostrum atque nam nesciunt eius. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius nemo laboriosam tempore dolor rerum accusantium omnis! Praesentium voluptates dolor amet distinctio doloremque voluptatem consectetur facilis a, earum deserunt voluptas laudantium.
+          </p>
         </div>
       </div>
     </section>
-    <main class="container">
+    <main class="container" id="destacados">
         <h1 class="h1 font-weight-bold text-center text-secondary py-4 ">DESTACADOS</h1>
-    
         <div class="row row-cols-sm-1 row-cols-md-4">
             <div class="col mb-4">
                 <div class="card">
@@ -146,7 +131,7 @@
         </div>
         </div>
     </main>
-    <section>
+    <section id="contacto">
       <h1 class="h1 font-weight-bold text-center text-secondary py-4 ">CONTACTO</h1>
       <form class="p-5">
         <div class="form-group">
@@ -175,8 +160,18 @@
                 <li class=" d-inline-block"><i class="fab fa-twitter-square"></i></li>
                 <li class=" d-inline-block "><i class="fab fa-facebook-square"></i></li>
             </ul>
-    
         </section>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
